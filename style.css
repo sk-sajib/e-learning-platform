@@ -1,0 +1,157 @@
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+button:hover {
+    background-color: #FAAF3A;
+}
+
+.hero-area-bg {
+    background-color: #F0FFF0;
+    height: 600px;
+    
+}
+
+.container{
+    padding-top: 45px;
+    padding-bottom: 50px;
+}
+
+.logo img {
+    max-width: 300px;
+}
+
+.nav-item {
+    margin-right: 41px;
+}
+
+ul.navbar-nav {
+    margin-top: 14px;
+}
+
+.navbar-nav .link-btn {
+    background-color: #21B573;
+    border: none;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 50px;
+    width: 135%;
+}
+
+.default-btn {
+    background-color: #21B573;
+    border: none;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 50px;
+    padding: 8px 35px;
+}
+
+.e-banner-area {
+    padding-top: 60px;
+}
+
+
+.e-content h1 {
+    font-weight: 800;
+    font-size: 51px;
+}
+
+
+.single-e-card {
+    background-color: #F8FFFB;
+    padding: 47px 25px;
+    transition: .3s;
+    
+}
+
+.single-e-card:hover {
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 13px 1px grey;
+    transform: translate(2px);
+}
+.single-e-card h4 {
+    margin-top: 30px;
+}
+
+/* .single-e-card img {
+    height: 65px;
+    max-height: 72px;
+} */
+
+.online-courses h1 {
+    margin-bottom: 66px;
+}
+
+
+.card {
+    box-shadow: 0px 3px 15px 3px #D7D7D7;
+}
+
+.card-footer-icon img {
+    width: 20px;
+}
+
+.single-card-img img {
+    padding: 25px 20px;
+}
+
+.gray-text {
+    color: gray;
+    font-weight: 500;
+}
+
+
+.card-footer-area {
+    padding: 23px 20px;
+}
+
+.carousel-item img {
+    width: 150px;
+    
+}
+
+
+.carousel-content {
+    padding: 40px 239px;
+    cursor: pointer;
+}
+.carousel-content p {
+    margin-left: 87px;
+}
+
+
+.footer-bg {
+    background-color: #282531;
+    color: #fff;
+}
+.footer-link h4 {
+    font-weight: 700;
+}
+
+.footer-link p a {
+    text-decoration: none;
+    color: #F9F9F9;
+   
+}
+.footer-link p a:hover{
+    color: #21B573;
+}
+
+.footer-area ul{
+    margin: 0;
+    padding: 0;
+}
+
+
+.footer-area p{
+
+        font-size: 16px;
+        letter-spacing: -1px;
+}
+
+.footer-area small p {
+    padding-top: 40px;
+}

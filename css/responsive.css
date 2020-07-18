@@ -1,0 +1,192 @@
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+    
+    
+  }
+  
+  /* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+  
+  @media (min-width: 1025px) and (max-width: 1280px) {
+    
+  
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+    .hero-area-bg {
+        background-color: #F0FFF0;
+        height: 475px;
+    }
+    .navbar {
+        float: right;
+    }
+    
+    .navbar-nav .link-btn {
+
+       width: 60%;
+    }
+    .e-content h1 {
+        font-size: 38px;
+    }
+    .testominial-carousel {
+        background-color: #F0FFF0;
+    }
+
+    .carousel-content {
+        padding: 0px 0px; 
+       
+    }
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    
+  
+    
+  }
+  
+  /* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+    .e-content {
+        text-align: center;
+    }
+    .hero-area-bg {
+        
+        height: 843px;
+    }
+    .navbar {
+        float: right;
+        margin-top: -76px;
+    }
+    .navbar-nav .link-btn {
+         width: 55%;
+    }
+    
+    .e-content h1 {
+        font-size: 42px;
+        color: red;
+    }
+
+    .header-img img {
+        padding-top: 48px;
+    }
+
+    .carousel-content {
+        padding: 0px 0px;
+    }
+    
+    .testominial-carousel h1 {
+        margin-bottom: 44px;
+    }
+    
+    .carousel-content p {
+        margin-left: 22px;
+    }
+
+    .card {
+        margin-top: 10px;
+    }
+    .card-body button {
+        padding: 5px 25px;
+    }
+
+    .card-footer-area {
+        padding: 17px 6px;
+    }
+
+
+    
+  }
+  
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+
+    .logo img {
+        width: 150px;
+        margin-left: -14px;
+    }
+    
+    nav.navbar {
+        float: right;
+        margin-top: -43px;
+        margin-right: -14px;
+        padding: 5px 5px;
+    }
+    
+    .nav-link.text-white.link-btn {
+        width: 50%;
+    }
+    .navbar-toggler {
+        font-size: 15px;
+    }
+    .e-content {
+        text-align: center;
+    }
+    
+    .e-content h1 {
+         font-size: 25px;
+    }
+
+   
+    .e-content button {
+        padding: 5px 20px;
+        margin-bottom: 25px;
+    }
+    
+    .single-e-card {
+        margin-top: 20px;
+    }
+    
+    .hero-area-bg {
+        height: 612px;
+    }
+    .carousel-item img {
+        width: 100px;
+    }
+    .carousel-content {
+        padding: 0px 0px;
+    }
+    
+    .online-courses h1 {font-weight: 700;margin-bottom: 28px;margin-top: -77px;font-size: 36px;}
+    
+    .testominial-carousel h1 {
+        margin-top: -80px;
+        margin-bottom: 30px;
+    }
+    
+    .carousel-content p {
+        margin-left: 7px;
+        text-align: justify;
+    }
+
+    .footer-link h4 {
+        font-size: 20px;
+    }
+    
+  }
